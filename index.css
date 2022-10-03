@@ -42,16 +42,8 @@ h1, h3, p{
     border-style: solid;
     border-radius: 5px;
     border-color: red;
+    align-items: center;
 
     
 }
 
-.chart3{
-    background-color: orange;
-    width:330px;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: blue;
-}
-    
