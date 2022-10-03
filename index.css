@@ -27,7 +27,7 @@ h1, h3, p{
     background-color: bisque;
 }
 
-.myWeek2{
+.myweek2{
     margin: auto;
     max-width: 600px;
     background-color: bisque;
@@ -42,7 +42,7 @@ h1, h3, p{
     border-style: solid;
     border-radius: 5px;
     border-color: red;
-    align-items: center;
+    
 
     
 }
