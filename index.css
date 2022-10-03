@@ -9,7 +9,7 @@
 
 /* Set the background color for my page: */
 body{
-    background-color: red;
+    background-color: rgb(108, 142, 180);
  
 }
 
@@ -44,5 +44,14 @@ h1, h3, p{
     border-color: red;
 
     
+}
+
+.chart3{
+    background-color: orange;
+    width:330px;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: blue;
 }
     
