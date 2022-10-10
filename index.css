@@ -41,4 +41,18 @@ h1, h3, p{
 
     
 }
+/* BUTTONS */
 
+a{
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+
+    margin:20px
+}
+
+
+#link1{
+    border-color:pink;
+    border-style:dashed
+}
