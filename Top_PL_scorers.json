@@ -1,0 +1,34 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "values": [
+      {"Unnamed: 0": 0, "Player": "Alan Shearer", "Stat": 260},
+      {"Unnamed: 0": 1, "Player": "Wayne Rooney", "Stat": 208},
+      {"Unnamed: 0": 2, "Player": "Harry Kane", "Stat": 193},
+      {"Unnamed: 0": 3, "Player": "Andrew Cole", "Stat": 187},
+      {"Unnamed: 0": 4, "Player": "Sergio Agüero", "Stat": 184},
+      {"Unnamed: 0": 5, "Player": "Frank Lampard", "Stat": 177},
+      {"Unnamed: 0": 6, "Player": "Thierry Henry", "Stat": 175},
+      {"Unnamed: 0": 7, "Player": "Robbie Fowler", "Stat": 163},
+      {"Unnamed: 0": 8, "Player": "Jermain Defoe", "Stat": 162},
+      {"Unnamed: 0": 9, "Player": "Michael Owen", "Stat": 150},
+      {"Unnamed: 0": 10, "Player": "Les Ferdinand", "Stat": 149},
+      {"Unnamed: 0": 11, "Player": "Teddy Sheringham", "Stat": 146},
+      {"Unnamed: 0": 12, "Player": "Robin van Persie", "Stat": 144},
+      {"Unnamed: 0": 13, "Player": "Jamie Vardy", "Stat": 134},
+      {"Unnamed: 0": 14, "Player": "Jimmy Floyd Hasselbaink", "Stat": 127},
+      {"Unnamed: 0": 15, "Player": "Robbie Keane", "Stat": 126},
+      {"Unnamed: 0": 16, "Player": "Nicolas Anelka", "Stat": 125},
+      {"Unnamed: 0": 17, "Player": "Mohamed Salah", "Stat": 123},
+      {"Unnamed: 0": 18, "Player": "Dwight Yorke", "Stat": 123},
+      {"Unnamed: 0": 19, "Player": "Romelu Lukaku", "Stat": 121}
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "Stat", "type": "quantitative", "axis": {"labelAngle": 0}},
+    "y": {"field": "Player", "type": "nominal", "sort": "-x"}
+  },
+  "config": {}
+}
