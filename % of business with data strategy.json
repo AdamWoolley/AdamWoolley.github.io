@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "% of businesses that have a specific data strategy",
+    "subtitle": "Split by size of business"
+  },
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "values": [
+      {"Business type": "Total", "% of businesses": 39},
+      {"Business type": "Microbusiness", "% of businesses": 28},
+      {"Business type": "Small", "% of businesses": 33},
+      {"Business type": "Medium", "% of businesses": 44},
+      {"Business type": "Large", "% of businesses": 47}
+    ]
+  },
+  "height": 300,
+  "width": 400,
+  "mark": {"type": "bar", "colour": "rgb(0,47,167)"},
+  "encoding": {
+    "x": {
+      "field": "Business type",
+      "type": "nominal",
+      "axis": {"labelAngle": 0}
+    },
+    "y": {"field": "% of businesses", "type": "quantitative"}
+  },
+  "config": {}
+}
