@@ -52,6 +52,31 @@
         <h3>Top premier league goalscorers of all time</h3>
         <div class="chart" id="Chart5"></div>
 
+        <h2>Week 5</h2>
+        <h3>Table of 9 time series charts taken from an ONS API</h3>
+        <table>
+            <tr>
+              <th>Total</th>
+              <th>Male</th>
+              <th>Female</th>
+            </tr>
+            <tr>
+              <tbody class="chart" id="Chart 10"></tbody>
+              <tbody class="chart" id="Chart 11"></tbody>
+              <tbody class="chart" id="Chart 12"></tbody>
+            </tr>
+            <tr>
+              <tbody class="chart" id="Chart 13"></tbody>
+              <tbody class="chart" id="Chart 14"></tbody>
+              <tbody class="chart" id="Chart 15"></tbody>
+            </tr>
+            <tr>
+              <tbody class="chart" id="Chart 16"></tbody>
+              <tbody class="chart" id="Chart 17"></tbody>
+              <tbody class="chart" id="Chart 18"></tbody> 
+            </tr>
+          </table>
+
         <h2>Week 7</h2>
         <h3>The states of India</h3>
         <div class="chart" id="Chart8"></div>
@@ -82,6 +107,15 @@
     var myChart7 = "data_strategy.json";   
     var myChart8 = "Indiastates.json.json";
     var myChart9 = "Indiastates_litrate3.json";
+    var myChart10 = "employment_prcnt_seasonaladjusted.json"; 
+    var myChart11 = "male_employment_prcnt_seasonaladjusted.json";
+    var myChart12 = "female_employment_prcnt_seasonaladjusted.json";
+    var myChart13 = "unemployment_prcnt_seasonaladjusted.json";
+    var myChart14 = "male_unemployment_prcnt_seasonaladjusted.json";
+    var myChart15 = "female_unemployment_prcnt_seasonaladjusted.json";
+    var myChart16 = "UB_claimants.json";
+    var myChart17 = "UB_male_claimants.json";
+    var myChart18 = "UB_female_claimants.json";
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
@@ -93,6 +127,15 @@
     vegaEmbed('#Chart7', myChart7);
     vegaEmbed('#Chart8', myChart8);
     vegaEmbed('#Chart9', myChart9);
+    vegaEmbed('#Chart10', myChart10);
+    vegaEmbed('#Chart11', myChart11);
+    vegaEmbed('#Chart12', myChart12);
+    vegaEmbed('#Chart13', myChart13);
+    vegaEmbed('#Chart14', myChart14);
+    vegaEmbed('#Chart15', myChart15);
+    vegaEmbed('#Chart16', myChart16);
+    vegaEmbed('#Chart17', myChart17);
+    vegaEmbed('#Chart18', myChart18);
 
 </script>
 

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://api.allorigins.win/raw?url=https://api.ons.gov.uk/timeseries/BCJD/dataset/LMS/data",
+    "format": {"type": "json", "property": "years"}
+  },
+  "title": {
+    "text": "UK Unemployment Benefit",
+    "subtitle": "United Kingdom (thousands, seasonally adjusted) claimants",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "width": 300,
+  "height": 300,
+  "mark": {"type": "line", "color": "seagreen"},
+  "encoding": {
+    "x": {"field": "year", "type": "temporal", "title": "Date"},
+    "y": {"field": "value", "type": "quantitative", "title": "Claimants"}
+  },
+  "config": {}
+}
