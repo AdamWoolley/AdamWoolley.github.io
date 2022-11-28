@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "India - Literacy rates",
+    "subtitle": ["Indian states", ""],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 12,
+    "anchor": "middle",
+    "color": "black"
+  },
+  "config": {"background": "white", "view": {"stroke": "transparent"}},
+  "width": 400,
+  "height": 320,
+  "data": {
+    "url": "https://raw.githubusercontent.com/Subhash9325/GeoJson-Data-of-Indian-States/master/Indian_States",
+    "format": {"type": "json", "property": "features"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.NAME_1",
+      "from": {
+        "key": "State",
+        "fields": ["literacy_rate"],
+        "data": {
+          "url": "https://raw.githubusercontent.com/Emvlt/Emvlt.github.io/main/indian_literacy_rate.csv"
+        }
+      }
+    }
+  ],
+  "projection": {"type": "mercator"},
+  "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.1},
+  "encoding": {
+    "color": {
+      "field": "literacy_rate",
+      "type": "quantitative",
+      "scale": {"scheme": "lightmulti"},
+      "legend": {
+        "title": "Literacy Rate",
+        "orient": "top-left",
+        "direction": "vertical"
+      }
+    }
+  }
+}
