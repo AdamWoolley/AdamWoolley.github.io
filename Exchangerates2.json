@@ -129,7 +129,11 @@
   "mark": {"type": "line", "interpolate": "step-after"},
   "encoding": {
     "x": {"field": "Date", "type": "temporal", "axis": {"labelAngle": 0}},
-    "y": {"field": "Monthly exchange rate", "type": "quantitative"}
+    "y": {
+      "field": "Monthly exchange rate",
+      "type": "quantitative",
+      "scale": {"domain": [1, 1.5]}
+    }
   },
   "config": {}
 }
