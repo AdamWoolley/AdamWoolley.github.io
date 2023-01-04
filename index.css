@@ -9,7 +9,7 @@
 
 /* Set the background color for my page: */
 body{
-    background-color: rgb(108, 142, 180);
+    background-color: rgb(0, 4, 8);
  
 }
 
@@ -23,8 +23,8 @@ h1, h3, p{
     
 .myWeek1{
     margin: auto;
-    max-width: 600px;
-    background-color: bisque;
+    max-width: 1000px;
+    background-color: rgb(231, 15, 148);
 }
 
 
