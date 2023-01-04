@@ -1,9 +1,6 @@
-Quintile groups of all income groups by equavilised household disposable income ,Bottom ,2nd,3rd ,4th,Top,Total
-Rented ,49.5,44.6,33.9,22.9,18,34.2
-Social ,30.4,24.9,15.8,6.7,1.9,16.3
-private ,18.1,19,16.7,14.6,15.3,16.8
-rent free ,1,0.7,1.4,1.6,0.8,1.1
-Owner ,50.5,55.4,66.1,77.1,82,65.8
-With mortgage ,11.8,18.3,30,42.6,50.9,30.3
-Owned outright ,38.4,36.4,35.4,33.6,30.4,34.9
-Rental purchase ,0.3,0.7,0.7,0.8,0.7,0.6
+Quintile group ,Renting ,Owner ,Owned outright,Mortgage ,% of owners with mortgage,Disposable income 
+Bottom,49.5,50.5,38.4,11.8,23.36633663,"13,196"
+2nd,44.6,55.4,36.4,18.3,33.03249097,"23,378"
+3rd,33.9,66.1,35.4,30,45.38577912,"31,503"
+4th,22.9,77.1,33.6,42.6,55.25291829,"41,901"
+Top,18,82,30.4,50.9,62.07317073,"78,131"
