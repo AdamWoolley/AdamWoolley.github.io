@@ -9,38 +9,46 @@
 
 /* Set the background color for my page: */
 body{
-    background-color: rgb(0, 4, 8);
- 
+    background-color:#faeae6;
+    background-size: cover;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1, h3, p{
-    color:rgb(17, 17, 17);
-    font-family: 'Roboto', sans-serif;
+    color:rgb(0, 0, 0);
+    font-family: 'Open', sans-serif;
     text-align: center;
 }
     
-.myWeek1{
+.portfolio{
     margin: auto;
-    max-width: 1000px;
-    background-color: rgb(231, 15, 148);
+    max-width: 600px;
+    background-color: #faeae6;
+
 }
 
 
 
 /* Set the apperance of the class, chart */
 .chart{
-    background-color: orange;
-    width:330px;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: red;
-    
-
+    background-color: white;
+    width: auto;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: #7a6a6a;
+    margin-left: 120px;
+    margin-right: 120px;
+    overflow: auto;
     
 }
+
 /* BUTTONS */
 
 a{
