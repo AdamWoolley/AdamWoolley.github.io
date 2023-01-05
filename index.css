@@ -59,6 +59,8 @@ h1, h3, p{
     border-radius: 10px;
     border-color: rgb(150, 150, 150);
     text-align: center;   
+    margin-right: 300px;
+    margin-left: 10px;
 }
 
 /* BUTTONS */
