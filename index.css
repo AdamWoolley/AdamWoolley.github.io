@@ -61,7 +61,7 @@ h1, h3, p{
     align-content: center;
  }
 
- #Chart10, #Chart11, #Chart12, #Chart13, #Chart14, #Chart15, #Chart16, #Chart17, #Chart18 {
+ #Chart10{
         background-color: white;
         border-width: 5px;
         border-radius: 10px;
