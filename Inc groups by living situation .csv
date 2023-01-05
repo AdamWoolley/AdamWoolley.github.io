@@ -1,6 +1,11 @@
-Quintile group ,Renting ,Owner ,Owned outright,Mortgage ,% of owners with mortgage,Disposable income 
-Bottom,49.5,50.5,38.4,11.8,23.36633663,"13,196"
-2nd,44.6,55.4,36.4,18.3,33.03249097,"23,378"
-3rd,33.9,66.1,35.4,30,45.38577912,"31,503"
-4th,22.9,77.1,33.6,42.6,55.25291829,"41,901"
-Top,18,82,30.4,50.9,62.07317073,"78,131"
+Quintile group ,Percentage ,Living situation,Owned outright,Mortgage ,% of owners with mortgage,Disposable income 
+Bottom,49.5,Renting,38.4,11.8,23.36633663,"13,196"
+2nd,44.6,Renting,36.4,18.3,33.03249097,"23,378"
+3rd,33.9,Renting,35.4,30,45.38577912,"31,503"
+4th,22.9,Renting,33.6,42.6,55.25291829,"41,901"
+Top,18,Renting,30.4,50.9,62.07317073,"78,131"
+Bottom,50.5,Owner,,,,
+2nd,55.4,Owner,,,,
+3rd,66.1,Owner,,,,
+4th,77.1,Owner,,,,
+Top,82,Owner,,,,
