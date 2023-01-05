@@ -12,8 +12,8 @@
     "anchor": "start",
     "color": "black"
   },
-  "width": 200,
-  "height": 200,
+  "width": 100,
+  "height": 100,
   "mark": {"type": "line", "color": "darkorange"},
   "encoding": {
     "x": {"field": "year", "type": "temporal", "title": "Date"},
