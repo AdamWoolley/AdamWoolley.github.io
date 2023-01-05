@@ -49,10 +49,6 @@ h1, h3, p{
     
 }
 
-#Chart2{
-    margin-right: 15px;
-    margin-left: 450px;
-}
 
 .grid-container {
     display: grid;
@@ -69,7 +65,7 @@ h1, h3, p{
         border-radius: 10px;
         border-style:solid;
         border-color: #7a6a6a;
-        margin-left: 70px;
+        margin-left: 10px;
         margin-right: 70px;
         overflow: auto;
         
