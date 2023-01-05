@@ -1,0 +1,77 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "UK individuals on whether they own a house or rent by Income group",
+    "subtitle": "Data from ONS 2021 survey",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10
+  },
+  "config": {"view": {"stroke": null}},
+  "data": {
+    "values": [
+      {
+        "Quintile group ": "1st",
+        "Percentage ": 49.5,
+        "Living situation": "Renting"
+      },
+      {
+        "Quintile group ": "2nd",
+        "Percentage ": 44.6,
+        "Living situation": "Renting"
+      },
+      {
+        "Quintile group ": "3rd",
+        "Percentage ": 33.9,
+        "Living situation": "Renting"
+      },
+      {
+        "Quintile group ": "4th",
+        "Percentage ": 22.9,
+        "Living situation": "Renting"
+      },
+      {
+        "Quintile group ": "5th",
+        "Percentage ": 18,
+        "Living situation": "Renting"
+      },
+      {
+        "Quintile group ": "1st",
+        "Percentage ": 50.5,
+        "Living situation": "Owner"
+      },
+      {
+        "Quintile group ": "2nd",
+        "Percentage ": 55.4,
+        "Living situation": "Owner"
+      },
+      {
+        "Quintile group ": "3rd",
+        "Percentage ": 66.1,
+        "Living situation": "Owner"
+      },
+      {
+        "Quintile group ": "4th",
+        "Percentage ": 77.1,
+        "Living situation": "Owner"
+      },
+      {"Quintile group ": "5th", "Percentage ": 82, "Living situation": "Owner"}
+    ]
+  },
+  "height": 300,
+  "width": 300,
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Quintile group ",
+      "title": "UK income group",
+      "axis": {"domain": false, "grid": false, "ticks": false}
+    },
+    "y": {
+      "field": "Percentage ",
+      "type": "quantitative",
+      "axis": {"domain": false, "grid": false, "ticks": false}
+    },
+    "xOffset": {"field": "Living situation"},
+    "color": {"field": "Living situation"}
+  }
+}

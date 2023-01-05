@@ -17,3 +17,16 @@ h1, h3, p{
     font-family: 'Open', sans-serif;
     text-align: center;
 }
+
+.chart{
+    background-color: white;
+    width: auto;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: #7a6a6a;
+    margin-left: 120px;
+    margin-right: 120px;
+    overflow: auto;
+    
+}
