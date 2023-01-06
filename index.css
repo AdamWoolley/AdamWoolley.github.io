@@ -61,6 +61,9 @@ h1, h3, p{
     text-align: center;   
 }
 
+#chart8,#chart9{
+    margin-left:200px,
+}
 /* BUTTONS */
 
 a{
