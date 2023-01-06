@@ -30,3 +30,8 @@ h1, h3, p{
     overflow: auto;
     
 }
+
+#link1{
+    border-color:rgb(22, 235, 153);
+    border-style:dashed
+}
