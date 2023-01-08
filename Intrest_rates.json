@@ -1,0 +1,20 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Figure 4 - BOE base rate, 10-Year fixed mortgage rate and 2-Year buy to let rate",
+    "subtitle": ["Source Bank of England database"]
+  },
+  "description": "Google's stock price over time.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/AdamWoolley/AdamWoolley.github.io/main/Average_intrest_rates.2.csv"
+  },
+  "height": 300,
+  "width": 300,
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Date", "type": "temporal"},
+    "y": {"field": "Value ", "type": "quantitative"},
+    "color": {"field": "Rate ", "type": "ordinal"}
+  },
+  "config": {}
+}

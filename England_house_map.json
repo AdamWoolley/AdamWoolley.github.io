@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Figure 2 - England Heat Map - Percentage change in house prices",
+    "text": "Figure 3 - England Heat Map - Percentage change in house prices",
     "subtitle": ["% change in average house prices by region, Source:ONS", ""],
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
