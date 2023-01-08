@@ -29,6 +29,16 @@
    <div class="chart2">
     <div class ="chart" id="Chart2"></div> <div class="chart"  id="Chart3"></div>
    </div>
+
+<h3>Chart 4 is a time series line chart showing the BOE base rate, a 10-year fixed mortagage rate and a 2-year fixed buy-to-let rate</h3>
+<div class="chart3">
+    <div class="chart" id="Chart4"></div>
+    <p>This chart shows that intrest payments on mortages are directly linked to the BOE base rate, I have included the buy to let rate as many private landlords will pay this rate on their loans and will adjust the rent prices accoridingly.
+        We can see in 2020 the base rate dropped due to the covid-19 pandemic and as a result the mortagage rates also dropped. If we compare this with the maps above at the end of 2020 house prices increased by the largest amount from the data we have, rent prices also increased substationally in this year.
+        This data is evidence that as intrest rates decrease house prices and rents increase, however when intrest rates increase I would theorize that rents will also go up as landlords will pass on this extra cost to their customers (the renters).
+        Bringing it back to the first chart this will squeeze the bottom earners as they have the highest rates of renting tightening already tight budgets.
+    </p>
+</div>
     
 
 <h3>Links to code</h3>
@@ -40,11 +50,13 @@
     var myChart1 = "incgroups1.json";
     var myChart2 = "England_rent_map.json";
     var myChart3 = "England_house_map.json";
+    var myChart4 = "Intrest_rates.json";
 
     //Embed the charts
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
     vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4);
 </script>
 
 </html>
