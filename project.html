@@ -17,13 +17,18 @@
 </head>
 <body>
  <h1>This is my project</h1>
-
+ <h3>The chart below takes data from the ONS website that shows the living situation of the 5 income groups in the UK, the chart clearly shows a trend of increases in income bracket leading to a higher percentage of individuals owning the propoerty they live in</h3>
     <div class="chart1">
         <h3>This chart splits individuals in the UK into 5 income bins</h3>
         <div class="chart" id="Chart1"></div>
 
 
     </div>
+
+<h3>Chart 2 and 3 are maps of the UK showing the changes in rent and house prices over time starting in 2014, we can see.....</h3>
+   <div class="chart2">
+    <div class ="chart" id="Chart2"  id="Chart3"></div>
+   </div>
     
 
 <h3>Links to code</h3>
@@ -32,9 +37,11 @@
 
 <script>
     var myChart1 = "incgroups1.json";
+    var myChart2 = "England_rent_map.json";
 
     //Embed the charts
     vegaEmbed('#Chart1', myChart1);
+    vegaEmbed('#Chart2', myChart2);
 </script>
 
 </html>
