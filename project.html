@@ -16,11 +16,17 @@
 
 </head>
 <body>
- <h1>This is my project</h1>
+ <h1>How intrest rates effect house and rental prices in England and which income groups are worst effected by these changes</h1>
+<h3>I wanted to use this project to examine how interest rates effected house prices in England, we all know there is a link between the cost of debt and house prices however I wanted to look into it further to see if there was a concrete link between monthly mortgage or rental payments and interest rates.
+    My thinking behind this was to look into whether renters or home owners have it worse off when interest rates rise as they have been in the later end of 2022, as interest rates rise those owners on variable mortgages are faced with immediate mortagage payment increases that they can do little about. As rates rise the price of 
+homes typically falls as well leaving those mortgages worse off as their equity decreases at the same time. When the Bank of England was raising rates at the end of last year it also made me curious as to how much landlords were passing on these increased costs to their tenants. As we will see from the first chart renters are 
+often on the lowest incomes and may not be able to afford rent increases. This project aims to look at where the biggest impact lies from rate increases. </h3>
+
+
+
  <h3>The chart below takes data from the ONS website that shows the living situation of the 5 income groups in the UK, the chart clearly shows a trend of increases in income bracket leading to a higher percentage of individuals owning the propoerty they live in</h3>
     <div class="chart1">
         <div class="chart" id="Chart1"></div>
-        <h3>This chart splits individuals in the UK into 5 income bins</h3>
 
 
     </div>
@@ -33,17 +39,27 @@
 <h3>Chart 4 is a time series line chart showing the BOE base rate, a 10-year fixed mortagage rate and a 2-year fixed buy-to-let rate</h3>
 <div class="chart3">
     <div class="chart" id="Chart4"></div>
-    <p>This chart shows that intrest payments on mortages are directly linked to the BOE base rate, I have included the buy to let rate as many private landlords will pay this rate on their loans and will adjust the rent prices accoridingly.
-        We can see in 2020 the base rate dropped due to the covid-19 pandemic and as a result the mortagage rates also dropped. If we compare this with the maps above at the end of 2020 house prices increased by the largest amount from the data we have, rent prices also increased substationally in this year.
-        This data is evidence that as intrest rates decrease house prices and rents increase, however when intrest rates increase I would theorize that rents will also go up as landlords will pass on this extra cost to their customers (the renters).
-        Bringing it back to the first chart this will squeeze the bottom earners as they have the highest rates of renting tightening already tight budgets.
-    </p>
+
 </div>
+
+<h3>Conclusions</h3>
+<p>This chart shows that interest payments on mortgages are directly linked to the BOE base rate, I have included the buy to let rate as many private landlords will pay this rate on their loans and will adjust the rent prices accordingly.
+    We can see in 2020 the base rate dropped due to the covid-19 pandemic and as a result the mortgage rates also dropped. If we compare this with the maps above at the end of 2020 house prices increased by the largest amount from the data we have, rent prices also increased substantially in this year.
+    This data is evidence that as interest rates decrease house prices and rents increase, however when interest rates increase I would theorize that rents will also go up as landlords will pass on this extra cost to their customers (the renters).
+    Bringing it back to the first chart this will squeeze the bottom earners as they have the highest rates of renting tightening already tight budgets.
+</p>
+
     
 
-<h3>Links to code</h3>
+<h3>Links to code and data that I used</h3>
 <p>Chart 1 converted data from csv file to make it readable in vega <a href="https://colab.research.google.com/drive/1kfZF9iVC2Gp29tFQwgOTkJW64vNOy_JB" id="link1">Chart1</a></p>
 <p>The data for both maps came from the ONS <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/housing/datasets/privaterentalaffordabilityengland" id="link1">Rent data</a> <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/housing/datasets/meanhousepricefornationalandsubnationalgeographiesexistingdwellingsquarterlyrollingyearhpssadataset14" id="link1">House data</a></p>
+<p>The data that I used for figure 4 came form the BOE database <a href="https://www.bankofengland.co.uk/boeapps/database/index.asp?Travel=NIxIRx&levels=2&XNotes=Y&C=E7D&C=EP0&C=EP3&C=U1Q&C=UKT&A40751XBMX40727X40728.x=16&A40751XBMX40727X40728.y=12&Nodes=X40729X40730X73833X73836X73839X73840X73841X73845X3687X3688X3691X3694X3716X3738X3754X3757X3764X3771X3774X40727X40728X40754X40755X45786X41513X41514X41515X41516X41517X55047X76909&SectionRequired=I&HideNums=-1&ExtraInfo=true#BM" id="link1">Interest rates data</a></p>
+<P>While conducting my project I found it consistently tricky to access data that I wanted to use. For example, I spent a lot of time looking for data regarding monthly mortgage payments and how they would change due to increase rate rises. I could not find this data nearly anywhere and decided in the end to focus 
+    on simpler data. This meant the majority of my data came from the ONS and BOE databases as they provided data in an excel form that I could then edit within excel and host on my Github page. Using the link to the data through my Github I could then visualize the data through Vega in an effective way.
+I spent a lot of time searching for an API for my time series data from the BOE but the BOE currently does not have ab API service and therefore I decided to stick to just using csv files. Examples of my work on API's are availabl in my portfolio. </P>
+<h3>Challenges in my data</h3>
+<p>For my first chart I struggled to format the data in the right way so that it could be read in vega. I wanted to create a stacked bar chart however my csv file was not formatted correctly for Vega to read it easily. To combat this I used python code to convert the csv file into values that Vega could interpret. The link to this code is in the paragrpah above.</p>
 </body>
 
 <script>
