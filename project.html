@@ -33,15 +33,18 @@
 
 <h3>Links to code</h3>
 <p>Chart 1 converted data from csv file to make it readable in vega <a href="https://colab.research.google.com/drive/1kfZF9iVC2Gp29tFQwgOTkJW64vNOy_JB" id="link1">Chart1</a></p>
+<p>The data for both maps came from the ONS <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/housing/datasets/privaterentalaffordabilityengland" id="link1">Rent data</a> <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/housing/datasets/meanhousepricefornationalandsubnationalgeographiesexistingdwellingsquarterlyrollingyearhpssadataset14" id="link1">House data</a></p>
 </body>
 
 <script>
     var myChart1 = "incgroups1.json";
     var myChart2 = "England_rent_map.json";
+    var myChart3 = "England_house_map.json";
 
     //Embed the charts
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3', myChart3);
 </script>
 
 </html>
