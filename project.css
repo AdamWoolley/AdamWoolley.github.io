@@ -13,7 +13,7 @@ body{
 
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1, h3, p{
-    color:rgb(0, 0, 0);
+    color:rgb(245, 236, 236);
     font-family: 'Open', sans-serif;
     text-align: center;
 }
