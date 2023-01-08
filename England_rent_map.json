@@ -1,0 +1,58 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Figure 2 - England Heat Map - Percentage change in rent prices",
+    "subtitle": ["% change in median rent prices by region, Source:ONS", ""],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "middle",
+    "color": "black"
+  },
+  "config": {"background": "white", "view": {"stroke": "transparent"}},
+  "width": 250,
+  "height": 350,
+  "data": {
+    "url": "https://raw.githubusercontent.com/AdamWoolley/AdamWoolley.github.io/main/Avg_rent_region.2.csv"
+  },
+  "projection": {"type": "mercator"},
+  "encoding": {
+    "tooltip": [
+      {"field": "properties.ITL121NM", "type": "nominal", "title": "District"},
+      {"field": "Change_prcnt", "type": "nominal", "title": "House Price"}
+    ],
+    "color": {
+      "field": "Change_prcnt",
+      "title": "% Change",
+      "type": "quantitative",
+      "scale": {"scheme": "blues", "domain": [-5, 15]}
+    }
+  },
+  "transform": [
+    {"filter": "datum.Year==AnnualYear"},
+    {
+      "lookup": "Country or region name",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/jhellingsdata/jhellingsdata.github.io/main/Data/UK%20Map%20Data/ITL1_2021_20m.geojson",
+          "format": {"property": "features"}
+        },
+        "key": "properties.ITL121NM",
+        "fields": ["properties", "type", "geometry"]
+      }
+    }
+  ],
+  "params": [
+    {
+      "name": "AnnualYear",
+      "value": 2014,
+      "bind": {
+        "input": "range",
+        "min": 2014,
+        "max": 2021,
+        "step": 1,
+        "name": "Select Year"
+      }
+    }
+  ],
+  "mark": {"type": "geoshape", "stroke": "black", "strokeWidth": 0.1}
+}
