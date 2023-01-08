@@ -1,10 +1,10 @@
-Country or region name ,Year,Average rent price 
+Country or region name,Year,Average rent price
 North East (England),2013,450
 North West (England),2013,495
 Yorkshire and The Humber,2013,485
 East Midlands (England),2013,500
 West Midlands (England),2013,525
-East ,2013,600
+East,2013,600
 London,2013,1250
 South East (England),2013,750
 South West (England),2013,615
@@ -15,7 +15,7 @@ North West (England),2014,495
 Yorkshire and The Humber,2014,480
 East Midlands (England),2014,500
 West Midlands (England),2014,530
-East ,2014,625
+East,2014,625
 London,2014,"1,300"
 South East (England),2014,750
 South West (England),2014,635
@@ -26,7 +26,7 @@ North West (England),2015,510
 Yorkshire and The Humber,2015,495
 East Midlands (England),2015,525
 West Midlands (England),2015,550
-East ,2015,650
+East,2015,650
 London,2015,"1,350"
 South East (England),2015,779
 South West (England),2015,650
@@ -37,7 +37,7 @@ North West (England),2016,525
 Yorkshire and The Humber,2016,500
 East Midlands (England),2016,530
 West Midlands (England),2016,565
-East ,2016,695
+East,2016,695
 London,2016,"1,452"
 South East (England),2016,845
 South West (England),2016,650
@@ -48,7 +48,7 @@ North West (England),2017,535
 Yorkshire and The Humber,2017,520
 East Midlands (England),2017,550
 West Midlands (England),2017,575
-East ,2017,750
+East,2017,750
 London,2017,"1,495"
 South East (England),2017,875
 South West (England),2017,695
@@ -59,7 +59,7 @@ North West (England),2018,550
 Yorkshire and The Humber,2018,525
 East Midlands (England),2018,570
 West Midlands (England),2018,595
-East ,2018,775
+East,2018,775
 London,2018,"1,400"
 South East (England),2018,875
 South West (England),2018,700
@@ -70,7 +70,7 @@ North West (England),2019,550
 Yorkshire and The Humber,2019,535
 East Midlands (England),2019,595
 West Midlands (England),2019,600
-East ,2019,795
+East,2019,795
 London,2019,"1,495"
 South East (England),2019,875
 South West (England),2019,700
@@ -81,7 +81,7 @@ North West (England),2020,575
 Yorkshire and The Humber,2020,550
 East Midlands (England),2020,600
 West Midlands (England),2020,645
-East ,2020,795
+East,2020,795
 London,2020,"1,425"
 South East (England),2020,900
 South West (England),2020,725
@@ -92,7 +92,7 @@ North West (England),2021,585
 Yorkshire and The Humber,2021,575
 East Midlands (England),2021,625
 West Midlands (England),2021,660
-East ,2021,800
+East,2021,800
 London,2021,"1,430"
 South East (England),2021,900
 South West (England),2021,750
