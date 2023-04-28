@@ -1,81 +1,8 @@
-/* Richard Davies, Data Science for Economists */
 
-/* This is my first proper css file */
-
-
-/* Import a font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
 /* Set the background color for my page: */
 body{
-    background-color:#faeae6;
-    background-size: cover;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-
-/* Choose the appearance of the tags, h1, h3 and p: */
-h1, h3, p{
-    color:rgb(0, 0, 0);
-    font-family: 'Open', sans-serif;
-    text-align: center;
-}
-    
-.portfolio{
-    margin: auto;
-    max-width: 600px;
-    background-color: #faeae6;
-
-}
-
-
-
-/* Set the apperance of the class, chart */
-.chart{
-    background-color: white;
-    width: auto;
-    border-width: 5px;
-    border-radius: 10px;
-    border-style:solid;
-    border-color: #7a6a6a;
-    margin-left: 120px;
-    margin-right: 120px;
-    overflow: auto;
-    
-}
-
-
-
-.chartweek5{
-    background-color: white;
-    width: 300px;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: rgb(150, 150, 150);
-    text-align: center;   
-}
-
-#chart8,#chart9{
-    margin-left:200px,
-}
-/* BUTTONS */
-
-a{
-    border: 5px;
-    border-color: black;
-    border-style: solid;
-
-    margin:20px
-}
-
-
-#link1{
-    border-color:rgb(22, 235, 153);
-    border-style:dashed
+    background-color: #106480;
 }
