@@ -11,3 +11,7 @@ h1, p {
     text-align: center;
     font-family:'Bubblegum Sans', cursive ;
 }
+
+h1 {
+    color: crimson;
+}
