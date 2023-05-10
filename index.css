@@ -18,8 +18,12 @@ p{
     font-family:'Bubblegum Sans', cursive ;
 }
 
-.center-image {
+.image-container {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.image-title {
+    margin-bottom: 10px;
 }
