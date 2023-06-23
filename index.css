@@ -4,7 +4,7 @@
 
 /* Set the background color for my page: */
 body{
-    background-color: #c46bc4;
+    background-color: #462646;
 }
 
 h1{ 
@@ -16,18 +16,15 @@ h1{
 p{
     text-align: center;
     font-family:'Bubblegum Sans', cursive ;
+    margin-left: 20px;
 }
 
-.image-container {
-    display: flex;   
+.content {
+    display: flex;
+    align-items: center;
 }
 
-.image-container{
-    flex: 1;
-    text-align: center;
-    margin: 10px;
-}
-
-.image-title {
-    margin-bottom: 10px;
+img {
+    max-width: 100%;
+    height: auto;
 }
