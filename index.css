@@ -19,6 +19,11 @@ p{
     margin-left: 20px;
 }
 
+.text-box {
+    background-color: aliceblue;
+    padding: 10px;
+}
+
 .content {
     display: flex;
     align-items: center;
