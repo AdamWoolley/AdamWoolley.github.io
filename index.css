@@ -21,17 +21,11 @@ p{
     margin-left: 20px;
 }
 
-.text-box {
-    background-color: aliceblue;
-    padding: 10px;
-}
-
-.content {
-    display: flex;
-    align-items: center;
-}
-
-img {
-    max-width: 400px;
-    height: auto;
+.container {
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
